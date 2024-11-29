@@ -1,16 +1,17 @@
-# Virtual environment directories
+# ignore .env file
+.env
+
+# ignore the venv folder
 venv/
-env/
-.venv/
 
-# Byte-compiled files
-__pycache__/
-*.py[cod]
-
-# Logs
-*.log
-
-# IDE files
+# ignore the .vscode folder
 .vscode/
+
+# ignore the .idea folder
 .idea/
-*.swp
+
+#ignore the chroma_db folder
+chroma_db/
+
+# ignore the db folder
+db/
